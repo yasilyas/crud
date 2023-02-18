@@ -11,7 +11,7 @@ if(isset($_POST['delete_student']))
 
     if($query_run)
     {
-        $_SESSION['message'] = "Student Deleted Successfully";
+        $_SESSION['message'] = "Data Siswa Sukses";
         header("Location: index.php");
         exit(0);
     }
